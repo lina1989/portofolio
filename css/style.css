@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/** fonts **/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background:#FFFFFF;
+	width:100%;
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family: 'Open+Sans', sans-serif;
+}
+
+a {color:#333030;}
+a:hover {color:#D5D5D5;}
+
+/* navbar */
+
+.navbar {
+	min-height:70px;
+	padding-top:10px;
+	margin-bottom:0px;
+}
+
+.navbar-brand {
+	font-weight:900;
+	font-size:22px;
+	color:#333030 !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color:#adabab;
+	font-weight:700;
+	font-size:12px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {color:#D5D5D5;}
+
+.navbar-toggle {text-align:right;}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color:#333030;
+	background-color:transparent;
+}
+
+.navbar-default {
+	background-color:#efefef;
+	border-color:transparent;
+}
+
+/* content */
+
+.soustitre {
+	background:#333030;
+	margin:50px 0;
+	padding:25px 0 15px 0;
+	width:100%;
+}
+
+h1.page-header {
+	font-weight:900;
+	font-size:22px;
+	color:#e5e5e5;
+	border-bottom:none;
+}
+
+.folio {margin:25px 0;}
+
+footer {margin:0; color: #fff;}
+
+
+/* modal */
+
+.modal-content {
+	border-radius: 0;
+}
+
+.modal-header {border:none;}
+
+h4.modal-title {
+	font-size:24px;
+	font-weight:bold;
+}
+
+.boite {margin:50px 0 25px;}
+
+.boite p {
+	margin:20px 15px;
+	color:#333030;
+}

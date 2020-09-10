@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Créer son protfolio avec Bootstrap">
+    <meta name="author" content="Maïssoum">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- style.css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Prise en charge de HTML5 Shim et Respond.js IE8 des éléments HTML5 et des requêtes multimédias -->
+    <!-- WARNING: Respond.js affichez la page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Logo</a>
+        </div><!--end toggle navigation-->
+        <div class="collapse navbar-collapse navbar-right" id="nav">
+        	<ul class="nav navbar-nav">
+            	<li><a href="#">Présentation</a></li>
+                <li><a href="#">Services</a></li>
+                <li class="active"><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+      </div><!--end container-->
+    </nav><!--end nav-->
+
+    <!--sous-titre-->
+    <div class="col-lg-12 soustitre row">
+    	<div class="container">
+        	<h1 class="page-header">Mes projets réalisés</h1>
+        </div><!--end container-->
+    </div>
+    <!--end sous-titre-->
+
+    <!--content-->
+    <div class="container">
+    	<div class="row">
+        	<div class="col-md-4 folio">
+            	<a href="#" data-toggle="modal" data-target="#Modal1"><img class="img-responsive" src="img/img1.jpg" alt="img1"></a>
+            </div><!--end col-md-4-->
+
+            <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title text-center text-uppercase" id="myModalLabel">Titre de mon projet</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/img8.jpg" alt="img8" class="img-responsive center-block">
+                            <div class="boite text-center">
+                                <p>
+                                    Etiam sed aliquam nunc. Aenean pellentesque quis elit ut faci  lisis. Suspendisse sed pharetra ligula, a sempmagna. Ut ut lacus enim. Fusce rutrum ante lorem, rhoncus lacinia libero vulputate ornare.Quisque tristique nisl a luctus finibus. Nam sed dictum neque. Ut tincidunt molestie sapien, ac tristique tellus lacinia lacinia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end modal-->
+
+            <!--image 2-->
+            <div class="col-md-4 folio">
+            	<a href="#" data-toggle="modal" data-target="#Modal2"><img class="img-responsive" src="img/img2.jpg" alt="img2"></a>
+            </div><!--end col-md-4-->
+
+            <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title text-center text-uppercase" id="myModalLabel">Titre de mon projet</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img src="img/img10.jpg" alt="img10" class="img-responsive center-block">
+                            <div class="boite text-center">
+                                <p>
+                                    Etiam sed aliquam nunc. Aenean pellentesque quis elit ut faci  lisis.
+                                    Suspendisse sed pharetra ligula, a semper magna. Ut ut lacus enim.
+                                    Fusce rutrum ante lorem, rhoncus lacinia libero vulputate ornare.
+                                    Quisque tristique nisl a luctus finibus. Nam sed dictum neque.
+                                    Ut tincidunt molestie sapien, ac tristique tellus lacinia lacinia.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end modal-->
+
+            <!--images restantes-->
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img3.jpg" alt="img3"></a>
+            </div><!--end col-md-4-->
+
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img4.jpg" alt="img4"></a>
+            </div><!--end col-md-4-->
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img5.jpg" alt="img5"></a>
+            </div><!--end col-md-4-->
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img6.jpg" alt="img6"></a>
+            </div><!--end col-md-4-->
+
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img7.jpg" alt="img7+"></a>
+            </div><!--end col-md-4-->
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img8.jpg" alt="img8"></a>
+            </div><!--end col-md-4-->
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img9.jpg" alt="img9"></a>
+            </div><!--end col-md-4-->
+
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img12.jpg" alt="img12"></a>
+            </div><!--end col-md-4-->
+            <div class="col-md-4 folio">
+            	<a href="#"><img class="img-responsive" src="img/img13.jpg" alt="img13"></a>
+            </div><!--end col-md-4-->
+                        <div class="col-md-4 portfolio">
+            	<a href="#"><img class="img-responsive" src="img/img11.jpg" alt="img11"></a>
+            </div><!--end col-md-4-->
+
+        </div><!--end row-->
+
+    </div><!--end container-->
+    <!--end content-->
+    <!--footer-->
+    <footer>
+        	<div class="col-lg-12 soustitre text-center row">
+            	<p>Copyright &copy; Lina Mampoko 2020</p>
+            </div><!--end col-lg-12-->
+    </footer><!--end footer-->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
